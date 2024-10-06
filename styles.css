@@ -1,0 +1,217 @@
+@font-face{
+    font-family:'RobotoFont';
+    src:url(Fonts\ webtek/Roboto-Regular.ttf) format('truetype');
+    font-weight:normal;
+}
+
+@font-face{
+    font-family:'RobotoFont';
+    src:url(Fonts\ webtek/Roboto-Bold.ttf) format('truetype');
+    font-weight:bold;
+}
+
+body {
+    font-family: 'RobotoFont',sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+
+.header {
+    background-color: #1b2d41;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.nav-links a {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+
+.main {
+    display: flex;
+    padding: 2rem;
+    background-color: #273646;
+    color: white;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+.main-text {
+    flex: 1;
+}
+
+
+
+
+.main-text button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+
+
+.main-image {
+    flex: 0.1;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+
+.info-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.info-boxes .picture {
+    width: 30%; 
+    height: 200px; 
+    border: 2px solid #007bff; 
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+
+.info-boxes .picture img {
+    width:300px; 
+    
+}
+
+
+
+.info-text {
+    flex: 1;
+    text-align: left;
+    margin: 0 1rem;
+}
+
+
+.Quote {
+    background-color: #e8e8e8;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+.Quote cite {
+    display: block;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+
+.cta-section {
+    background-color: #007bff;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+
+.cta-section button{
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'RobotoFont',sans-serif;
+
+}
+
+
+.footer {
+    background-color: #1b2d41;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+.post {
+    width: 30%;  
+    margin-bottom: 2rem;  
+    padding: 1rem;
+    background-color: lightblue;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+
+
+
+.weather-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+ 
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.weather-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.weather-box h2 {
+    font-size: 1.5rem;
+    font-family: 'RobotoFont',sans-serif;
+}
+
+.weather-box p {
+    margin: 0.5rem 0;
+    font-family: 'RobotoFont',sans-serif;
+}
+
